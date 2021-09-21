@@ -86,7 +86,7 @@ class _AboutMe extends State<AboutMe>{
                 children: [
                   GestureDetector(
                     onTap: (){
-                      _launchURL("http://google.com");
+                      _launchURL("https://github.com/hafizzafarahmad/calculator_sederhana");
                     },
                     child: Text(
                       'GitHub',
