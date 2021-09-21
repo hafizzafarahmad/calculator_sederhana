@@ -170,6 +170,7 @@ class _Home extends State<Home> {
 
                     SizedBox(height: 50,),
 
+                    (_listPrima.isNotEmpty) ?
                     Text(
                       'Bilangan prima dari ${_firstInputInput.text} hingga ${_secondInputInput.text} adalah :',
                       style: TextStyle(
@@ -177,7 +178,7 @@ class _Home extends State<Home> {
                           color: Colors.black,
                       ),
                       textAlign: TextAlign.center,
-                    ),
+                    ) : SizedBox(),
                     SizedBox(height: 20,),
                     Wrap(
                       children: _listPrima,
